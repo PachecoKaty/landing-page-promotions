@@ -13,26 +13,27 @@
 }
 
 
-.product-content{
+.product-container{
     display: flex; 
     flex-direction: column;
     justify-content: flex-start;
 }
 
-.product-card__content h3{
+.product__content h3{
     font-family: var(--bebas-neue);
 }
 
-.product-card__content{
+.product__content{
     display: flex;
     flex-direction: column;
     font-family: var(--pathway-gothic);
+    font-size: 1.5rem;
     margin: 2rem;
 }
 
-.product-card__image{
-    width: 50%;
-    height: 80vh;
+.product__image{
+    width: 30%;
+    height: 75vh;
     margin: 0.5rem;
     padding: 2rem;
     border: 10px solid var(--primary-color);    

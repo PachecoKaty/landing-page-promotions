@@ -3,7 +3,7 @@
 
 @import url(sections/home.css);
 @import url(sections/products.css);
-@import url(sections/contact.css);
+@import url(sections/product-content.css);
 
 :root{
     --bebas-neue:"Bebas Neue", sans-serif;
